@@ -1,6 +1,17 @@
-package postIt;
+package postIt.UI;
 
-import static postIt.UI.*;
+import postIt.Gender;
+import postIt.Role;
+import postIt.Statistics.StaffStatistics;
+import postIt.Staff.ITSupport;
+import postIt.Staff.VicePresident;
+import postIt.Staff.Developer;
+import postIt.Staff.Employee;
+import postIt.Staff.BuildingTechnician;
+import postIt.Staff.BookKeeper;
+import postIt.StaffList;
+import postIt.WrongOptionException;
+import static postIt.UI.UI.*;
 
 public class SwitchForMenu {
 

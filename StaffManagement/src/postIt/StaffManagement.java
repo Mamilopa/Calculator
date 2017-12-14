@@ -1,6 +1,6 @@
 package postIt;
 
-import static postIt.UI.*;
+import static postIt.UI.UI.*;
 
 public class StaffManagement {
 

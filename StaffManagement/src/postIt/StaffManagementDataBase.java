@@ -1,5 +1,12 @@
 package postIt;
 
+import postIt.Staff.ITSupport;
+import postIt.Staff.VicePresident;
+import postIt.Staff.Developer;
+import postIt.Staff.Employee;
+import postIt.Staff.BuildingTechnician;
+import postIt.Staff.BookKeeper;
+
 public class StaffManagementDataBase {
 
     public static StaffList initializeDataBase(){

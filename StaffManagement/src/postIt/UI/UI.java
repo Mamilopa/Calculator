@@ -1,9 +1,16 @@
-package postIt;
+package postIt.UI;
 
+import postIt.Staff.Employee;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-import static postIt.EmployeeFormatter.*;
+import postIt.EmployeeNoyFoundException;
+import postIt.Gender;
+import postIt.Role;
+import postIt.StaffList;
+import postIt.StaffManagementDataBase;
+import postIt.WrongOptionException;
+import static postIt.UI.EmployeeFormatter.*;
 
 public class UI {
 

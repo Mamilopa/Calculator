@@ -1,4 +1,6 @@
-package postIt;
+package postIt.Staff;
+
+import postIt.Role;
 
 public class Developer extends Role {
 

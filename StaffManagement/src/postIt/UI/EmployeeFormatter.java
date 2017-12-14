@@ -1,5 +1,6 @@
-package postIt;
+package postIt.UI;
 
+import postIt.Staff.Employee;
 import java.util.List;
 
 public class EmployeeFormatter {

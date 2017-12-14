@@ -1,8 +1,9 @@
-package postIt;
+package postIt.Staff;
 
 import java.text.SimpleDateFormat;
 
 import java.util.GregorianCalendar;
+import postIt.Gender;
 
 public class Employee {
 

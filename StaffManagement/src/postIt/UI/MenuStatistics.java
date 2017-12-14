@@ -1,6 +1,15 @@
-package postIt;
+package postIt.UI;
 
+import postIt.Statistics.StaffStatistics;
+import postIt.Staff.ITSupport;
+import postIt.Staff.VicePresident;
+import postIt.Staff.Developer;
+import postIt.Staff.BuildingTechnician;
+import postIt.Staff.BookKeeper;
 import java.util.Scanner;
+import postIt.Gender;
+import postIt.Role;
+import postIt.WrongOptionException;
 
 public class MenuStatistics {
 

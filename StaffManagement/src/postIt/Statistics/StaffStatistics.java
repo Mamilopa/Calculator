@@ -1,7 +1,10 @@
-package postIt;
+package postIt.Statistics;
 
+import postIt.Staff.Employee;
 import java.util.ArrayList;
 import java.util.List;
+import postIt.Gender;
+import postIt.Role;
 
 /**
  * In this class there are method that calculate the statistics for all the staff

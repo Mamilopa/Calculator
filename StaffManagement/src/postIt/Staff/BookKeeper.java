@@ -1,6 +1,11 @@
-package postIt;
+package postIt.Staff;
 
-public class VicePresident extends Role {
+import postIt.Role;
+
+/**
+ *
+ */
+public class BookKeeper extends Role {
 
     private double bonus = 20;
 
@@ -10,19 +15,17 @@ public class VicePresident extends Role {
         return salary * ((bonus * 0.01));
     }
 
+    @Override
+     public String getRoleName(){
+         return "Book Keeper";
+     }
+
     public double getBonus() {
         return bonus;
     }
 
     @Override
-    public String getRoleName() {
-        return "Vice President";
-    }
-
-    @Override
     public String toString() {
-        return "The bonus for Vice President is: " + bonus + "% percent.";
+        return "The bonus for Book Keeper is: " + bonus + "% percent.";
     }
-
-
 }

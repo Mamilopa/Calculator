@@ -1,5 +1,8 @@
 package postIt;
 
+import postIt.UI.EmployeeFormatter;
+import postIt.Statistics.StaffStatistics;
+import postIt.Staff.Employee;
 import java.util.ArrayList;
 import java.util.Scanner;
 

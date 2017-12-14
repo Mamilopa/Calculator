@@ -1,18 +1,19 @@
-package postIt;
+package postIt.Staff;
 
-public class ITSupport extends Role {
+import postIt.Role;
+
+public class ProjectManager extends Role {
 
     private double bonus = 20;
 
     @Override
     public double calculateBonus(double salary) {
-
-        return salary * ((bonus * 0.01));
+        return salary * ((bonus * 0.01) + 1);
     }
 
     @Override
     public String getRoleName() {
-        return "IT Support";
+        return "Project Manager";
     }
 
     public double getBonus() {
@@ -21,8 +22,8 @@ public class ITSupport extends Role {
 
     @Override
     public String toString() {
-        return "The bonus for It Suport is: " + bonus + "% percent.";
+        return "The bonus for Project Manager is: " + bonus + "% percent.";
     }
 
+
 }
-    
