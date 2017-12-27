@@ -6,24 +6,24 @@
 
     <h:head> 
         <title>Calculator</title>
-        <h:outputStylesheet library="myCss" name="myCss.css"/>
-        <h:outputScript library="myJs" name="myJs.js"/>
+        <h:outputStylesheet library="css" name="myStyle.css"/>
+        <h:outputScript library="js" name="myJs.js"/>
     </h:head>
     <h:body>
         <h:form>
             <h3>Simple Calculator</h3>
-            
+
             <h:panelGrid columns="2">
                 <h:outputLabel for="parameter1" value="Number 1"/>
                 <h:inputText id="parameter1" value='#{mathBean.parameter1}'/>
                 <h:outputLabel for="parameter2" value="Number 2"/>
-                <h:inputText id="parameter2" value='#{mathBean.parameter2}'/>
+                <h:inputText id="parameter2" value='#{mathBean.parameter2}'/><br/>
             </h:panelGrid>
             <h:panelGroup>
                 <h:commandButton value="addition" action='#{mathBean.add}'/>
                 <h:commandButton value="subtraction" action='#{mathBean.subtract}'/>
                 <h:commandButton value="multiplication" action='#{mathBean.multiply}'/>
-                <h:commandButton value="division" action='#{mathBean.divide}'/>
+                <h:commandButton value="division" action='#{mathBean.divide}'/><br/><br/>
             </h:panelGroup>
             <h:outputLabel for="result" value="Result"/>
             <h:inputText id="result" value='#{mathBean.result}'/>
